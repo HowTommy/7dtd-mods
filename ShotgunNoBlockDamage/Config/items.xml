@@ -1,0 +1,15 @@
+<config>
+    <append xpath="/items">
+		<item name="modShotgunNoBlockDamageSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="modShotgunSawedOffBarrel"/>
+			<property name="CustomIconTint" value="#FFBBBB"/>
+			<property name="Unlocks" value="modShotgunNoBlockDamage"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="modShotgunNoBlockDamage" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+</config>

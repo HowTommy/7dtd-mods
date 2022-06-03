@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="ShotgunNoBlockDamages" />
+		<Description value="Adds a mod that removes bloc damages for shotguns" />
+		<Author value="HowTommy" />
+		<Version value="A20" />
+		<Website value="" />
+	</ModInfo>
+</xml>

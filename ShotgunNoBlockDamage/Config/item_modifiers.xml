@@ -1,0 +1,14 @@
+<config>
+    <append xpath="/item_modifiers">
+		<item_modifier name="modShotgunNoBlockDamage" installable_tags="shotgun" modifier_tags="barrelAttachment" blocked_tags="noMods,dBarrel" type="attachment">
+			<property name="Extends" value="modGeneralMaster"/>
+			<property name="UnlockedBy" value="modShotgunNoBlockDamageSchematic"/>
+			<property name="CustomIcon" value="modShotgunSawedOffBarrel"/>
+			<property name="CustomIconTint" value="#FFBBBB"/>
+
+			<effect_group tiered="false">
+				<passive_effect name="BlockDamage" operation="perc_add" value="-5000"/>
+			</effect_group>
+		</item_modifier>
+	</append>
+</config>

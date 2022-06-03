@@ -1,0 +1,4 @@
+Key,Source,Context,Changes,English,French
+modShotgunNoBlockDamage,item_modifiers,mod,,No block damage Shotgun Mod,Modification d'absorption de chocs pour fusil
+modShotgunNoBlockDamageDesc,item_modifiers,mod,,Cancels block damages on your shotgun,Annule tous les dégats de bloc une fois accroché à un fusil
+modShotgunNoBlockDamageSchematic,item_modifiers,mod,,No block damage Shotgun Mod Schematic,Schéma de modification d'absorbeur de chocs pour fusil
