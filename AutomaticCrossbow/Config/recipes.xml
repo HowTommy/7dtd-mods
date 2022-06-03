@@ -1,0 +1,14 @@
+<config>
+	<append xpath="/recipes">
+		<recipe name="gunBowT4AutoCrossbow" count="1" craft_area="workbench" tags="learnable,perkArchery">
+			<ingredient name="gunBowT1WoodenBowParts" count="10"/>
+			<ingredient name="resourceForgedSteel" count="30"/>
+			<ingredient name="resourceDuctTape" count="6"/>
+			<ingredient name="resourceLeather" count="6"/>
+			<ingredient name="resourceScrapPolymers" count="40"/>
+			<effect_group>
+				<passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="gunBowT1WoodenBowParts,resourceForgedSteel,resourceDuctTape,resourceScrapPolymers,resourceSpring"/>
+			</effect_group>
+		</recipe>
+	</append>
+</config>
