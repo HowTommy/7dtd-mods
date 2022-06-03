@@ -1,9 +1,9 @@
 <config>
 	<append xpath="/recipes">
-		<recipe name="modShotgunNoBlockDamageSchematic" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+		<recipe name="modShotgunNoBlockDamage" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
 			<ingredient name="resourceForgedSteel" count="5"/>
 			<ingredient name="resourceGlue" count="5"/>
-			<ingredient name="resourceBrokenGlass" count="15"/>
+			<ingredient name="resourceBrokenGlass" count="5"/>
 			<ingredient name="resourceSpring" count="15"/>
 		</recipe>
 	</append>

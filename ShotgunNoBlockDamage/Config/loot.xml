@@ -1,0 +1,8 @@
+<config>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']">
+		<item name="modShotgunNoBlockDamageSchematic" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='modGunT1']">
+		<item name="modShotgunNoBlockDamage" />
+	</append>
+</config>
