@@ -99,15 +99,16 @@
 			</effect_group>
 		</item>
 		
-		<!-- <item name="gunBowT3CompoundCrossbowSchematic"> -->
-			<!-- <property name="Extends" value="schematicMaster"/> -->
-			<!-- <property name="CreativeMode" value="Player"/> -->
-			<!-- <property name="CustomIcon" value="gunBowT3CompoundCrossbow"/> -->
-			<!-- <property name="Unlocks" value="gunBowT3CompoundCrossbow"/> -->
-			<!-- <effect_group tiered="false"> -->
-				<!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT3CompoundCrossbow" operation="set" value="1"/> -->
-				<!-- <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/> -->
-			<!-- </effect_group> -->
-		<!-- </item> -->
+		<item name="gunBowT4AutoCrossbowSchematic"> -->
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="gunBowT3CompoundCrossbow"/>
+			<property name="CustomIconTint" value="#333333"/>
+			<property name="Unlocks" value="gunBowT4AutoCrossbow"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="gunBowT4AutoCrossbow" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
 	</append>
 </config>

@@ -1,2 +1,4 @@
 Key,Source,Context,Changes,English,French
 gunBowT4AutoCrossbow,items,Gun,,Automatic crossbow,Arbalète automatique
+gunBowT4AutoCrossbowDesc,items,Gun,,A super fast and automatic crossbow,Une arbalète automatique pouvant tirer de nombreux carreaux à la suite
+gunBowT4AutoCrossbowSchematic,items,Gun,,Automatic crossbow Schematic,Schéma d'arbalète automatique

@@ -1,0 +1,8 @@
+<config>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsWeaponsArmorT1']">
+		<item name="gunBowT4AutoCrossbowSchematic" />
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']">
+		<item name="gunBowT4AutoCrossbow" />
+	</append>
+</config>
